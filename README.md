@@ -1128,7 +1128,7 @@ val = val.With(Y: y);
 val = val.With(X: x, Y: y);
 ```
 ### `[With]`
-It can be quite tedious to write the `With` function however.  And so, if you include the `LanguageExt.CodeGen` nu-get package in your solution you gain the ability to use the `[With]` attribtue on a type.  This will build the `With` method for you.
+It can be quite tedious to write the `With` function however.  And so, if you include the `LanguageExt.CodeGen` NuGet package in your solution you gain the ability to use the `[With]` attribute on a type.  This will build the `With` method for you.
 
 > NOTE: The `LanguageExt.CodeGen` package and its dependencies will not be included in your final build - it is purely there to generate the code.
 
